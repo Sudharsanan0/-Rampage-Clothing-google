@@ -25,11 +25,11 @@ const Contact: React.FC = () => {
           <div className="w-24 h-1 bg-brand-dark mx-auto mt-4"></div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Form Container - Added min-height to prevent layout shift */}
-          <div className="bg-brand-accent p-8 rounded-lg shadow-md flex items-center justify-center min-h-[570px]">
+        <div className="max-w-2xl mx-auto">
+          {/* Form Container */}
+          <div className="bg-brand-accent p-8 rounded-lg shadow-md flex items-center justify-center">
             {submissionStatus === 'submitted' ? (
-              <div className="text-center">
+              <div className="text-center py-10">
                  <svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14 text-brand-primary mx-auto mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -63,24 +63,6 @@ const Contact: React.FC = () => {
                 </button>
               </form>
             )}
-          </div>
-
-          {/* Contact Details */}
-          <div className="space-y-6 text-brand-text-light">
-            <div>
-              <h3 className="text-2xl font-semibold text-brand-dark mb-3">Company Address</h3>
-              <p>Site No. 52 Factory 36 D, Mohale Street, Industrial Area 2, Phuthaditjhaba, 9866</p>
-            </div>
-            <div>
-              <h3 className="text-2xl font-semibold text-brand-dark mb-3">Contact Numbers</h3>
-              <p>Tel: 058 713 1478</p>
-              <p>Mobile: 063 5213 158 / 073 375 2146</p>
-            </div>
-            <div>
-              <h3 className="text-2xl font-semibold text-brand-dark mb-3">Company Details</h3>
-              <p>VAT: 4810277485</p>
-              <p>Reg No: 2014/250625/07</p>
-            </div>
           </div>
         </div>
       </div>
