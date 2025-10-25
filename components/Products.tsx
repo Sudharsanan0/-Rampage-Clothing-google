@@ -5,7 +5,7 @@ const products = [
   { 
     title: "School & Organisational Uniforms",
     description: "High-quality school uniforms designed for comfort and durability",
-    imageUrl: "https://lh3.googleusercontent.com/v5D4FSOKWOLlrPjOV2_9eQotNk5ePX3wI380YJ6DRbrkFyuKw1_bnC6OMKxxPBERw0O_La5l6wPO4ykBNf4lZlQKc4DW71bAhtqOKt7pvxLG7o5xap9Hhq0wvqH4BYseZTQINLfl",
+    imageUrl: "https://www.nordangliaeducation.com/-/media/corporate/news-events/thebenefitsofschoolsuniformsandwhyschoolshavethem/nais-al-khor_qatar_2020_021_jpg.jpg?rev=0ef7cdf8fc33473ca2841e1b6aa9ec1b&hash=0896D231A2FFD0BEC48965FC97428B93",
     
   },
   { 
