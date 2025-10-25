@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-brand-white/20 pt-6 mt-8 text-center">
           <p className="text-sm">&copy; {new Date().getFullYear() + 1} Rampage Clothing <span className="text-brand-primary font-semibold">(PTY) LTD</span>. All Rights Reserved.</p>
-          <p className="mt-2 text-sm">Powered by <strong className="text-brand-white">Aura Tech</strong></p>
+      
         </div>
       </div>
     </footer>
